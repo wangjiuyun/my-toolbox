@@ -1,0 +1,30 @@
+# --- 敏感信息 ---
+.env
+*.log
+secrets.json
+
+# --- Python 缓存 ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- 虚拟环境 ---
+venv/
+.venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- 操作系统与编辑器 ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
